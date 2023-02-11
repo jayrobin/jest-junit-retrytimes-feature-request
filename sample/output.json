@@ -1,0 +1,85 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 2,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 3,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1676073992911,
+  "success": false,
+  "testResults": [{
+    "assertionResults": [{
+      "ancestorTitles": [],
+      "duration": 1,
+      "failureDetails": [],
+      "failureMessages": [],
+      "fullName": "always succeeds",
+      "invocations": 1,
+      "location": null,
+      "numPassingAsserts": 1,
+      "retryReasons": [],
+      "status": "passed",
+      "title": "always succeeds"
+    }, {
+      "ancestorTitles": [],
+      "duration": 1,
+      "failureDetails": [{
+        "matcherResult": {
+          "actual": true,
+          "expected": false,
+          "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m",
+          "name": "toBe",
+          "pass": false
+        }
+      }],
+      "failureMessages": ["Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m\n    at Object.toBe (/Users/james_robinson/dev/jest-junit-retrytimes/flaky.test.js:8:16)\n    at Promise.then.completed (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/utils.js:293:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/utils.js:226:10)\n    at _callCircusTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:248:40)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at _runTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:184:3)\n    at _runTestsForDescribeBlock (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:108:7)\n    at run (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:26:3)\n    at runAndTransformResultsToJestFormat (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)\n    at jestAdapter (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-runner/build/runTest.js:444:34)"],
+      "fullName": "always fails",
+      "invocations": 6,
+      "location": null,
+      "numPassingAsserts": 0,
+      "retryReasons": ["Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m\n    at Object.toBe (/Users/james_robinson/dev/jest-junit-retrytimes/flaky.test.js:8:16)\n    at Promise.then.completed (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/utils.js:293:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/utils.js:226:10)\n    at _callCircusTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:248:40)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at _runTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:184:3)\n    at _runTestsForDescribeBlock (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:86:9)\n    at run (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:26:3)\n    at runAndTransformResultsToJestFormat (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)\n    at jestAdapter (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-runner/build/runTest.js:444:34)", "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m\n    at Object.toBe (/Users/james_robinson/dev/jest-junit-retrytimes/flaky.test.js:8:16)\n    at Promise.then.completed (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/utils.js:293:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/utils.js:226:10)\n    at _callCircusTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:248:40)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at _runTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:184:3)\n    at _runTestsForDescribeBlock (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:108:7)\n    at run (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:26:3)\n    at runAndTransformResultsToJestFormat (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)\n    at jestAdapter (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-runner/build/runTest.js:444:34)", "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m\n    at Object.toBe (/Users/james_robinson/dev/jest-junit-retrytimes/flaky.test.js:8:16)\n    at Promise.then.completed (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/utils.js:293:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/utils.js:226:10)\n    at _callCircusTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:248:40)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at _runTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:184:3)\n    at _runTestsForDescribeBlock (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:108:7)\n    at run (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:26:3)\n    at runAndTransformResultsToJestFormat (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)\n    at jestAdapter (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-runner/build/runTest.js:444:34)", "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m\n    at Object.toBe (/Users/james_robinson/dev/jest-junit-retrytimes/flaky.test.js:8:16)\n    at Promise.then.completed (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/utils.js:293:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/utils.js:226:10)\n    at _callCircusTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:248:40)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at _runTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:184:3)\n    at _runTestsForDescribeBlock (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:108:7)\n    at run (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:26:3)\n    at runAndTransformResultsToJestFormat (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)\n    at jestAdapter (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-runner/build/runTest.js:444:34)", "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m\n    at Object.toBe (/Users/james_robinson/dev/jest-junit-retrytimes/flaky.test.js:8:16)\n    at Promise.then.completed (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/utils.js:293:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/utils.js:226:10)\n    at _callCircusTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:248:40)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at _runTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:184:3)\n    at _runTestsForDescribeBlock (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:108:7)\n    at run (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:26:3)\n    at runAndTransformResultsToJestFormat (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)\n    at jestAdapter (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-runner/build/runTest.js:444:34)"],
+      "status": "failed",
+      "title": "always fails"
+    }, {
+      "ancestorTitles": [],
+      "duration": 0,
+      "failureDetails": [],
+      "failureMessages": [],
+      "fullName": "flakes",
+      "invocations": 2,
+      "location": null,
+      "numPassingAsserts": 1,
+      "retryReasons": ["Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at Object.toBe (/Users/james_robinson/dev/jest-junit-retrytimes/flaky.test.js:12:31)\n    at Promise.then.completed (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/utils.js:293:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/utils.js:226:10)\n    at _callCircusTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:248:40)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at _runTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:184:3)\n    at _runTestsForDescribeBlock (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:86:9)\n    at run (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:26:3)\n    at runAndTransformResultsToJestFormat (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)\n    at jestAdapter (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-runner/build/runTest.js:444:34)"],
+      "status": "passed",
+      "title": "flakes"
+    }],
+    "endTime": 1676073993249,
+    "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1malways fails\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32mfalse\u001b[39m\n    Received: \u001b[31mtrue\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  6 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  7 |\u001b[39m it(\u001b[32m'always fails'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m  8 |\u001b[39m   expect(\u001b[36mtrue\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[36mfalse\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  9 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 10 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 11 |\u001b[39m it(\u001b[32m'flakes'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.toBe (\u001b[22m\u001b[2m\u001b[0m\u001b[36mflaky.test.js\u001b[39m\u001b[0m\u001b[2m:8:16)\u001b[22m\u001b[2m\u001b[22m\n",
+    "name": "/Users/james_robinson/dev/jest-junit-retrytimes/flaky.test.js",
+    "startTime": 1676073992954,
+    "status": "failed",
+    "summary": ""
+  }],
+  "wasInterrupted": false
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="1" errors="0" time="0.363">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2023-02-11T00:06:32" time="0.295" tests="3">
+    <testcase classname=" always succeeds" name=" always succeeds" time="0.001">
+    </testcase>
+    <testcase classname=" always fails" name=" always fails" time="0.001">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: false
+Received: true
+    at Object.toBe (/Users/james_robinson/dev/jest-junit-retrytimes/flaky.test.js:8:16)
+    at Promise.then.completed (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/utils.js:293:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:184:3)
+    at _runTestsForDescribeBlock (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:108:7)
+    at run (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/run.js:26:3)
+    at runAndTransformResultsToJestFormat (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)
+    at jestAdapter (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/james_robinson/dev/jest-junit-retrytimes/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname=" flakes" name=" flakes" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>

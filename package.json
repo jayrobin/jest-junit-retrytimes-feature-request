@@ -1,0 +1,14 @@
+{
+  "name": "jest-junit-retrytimes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "james.michael.robinson@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --json --outputFile=output.json"
+  },
+  "dependencies": {
+    "jest": "^29.4.2",
+    "jest-junit": "^15.0.0"
+  }
+}
